@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eco Clicker Game – SDG 13</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="game">
+
+    <nav class="navbar">
+        <div class="logo">SDG 13</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 class="hero-title">Eco Clicker Game</h1>
+        <p class="hero-subtitle">Click as fast as you can in 10 seconds!</p>
+    </header>
+
+    <section class="section">
+        <div class="game-container">
+            <p>Time left: <span id="time-left">0</span> seconds</p>
+            <p>Score: <span id="game-score">0</span></p>
+
+            <button id="leaf-button" class="leaf-button" disabled>🍃</button>
+            <button id="start-game" class="btn-secondary">Start Game</button>
+
+            <div id="game-result" style="margin-top: 1rem; font-weight: bold;"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Made for SDG 13 – Climate Action</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
