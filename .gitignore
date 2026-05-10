@@ -1,0 +1,22 @@
+# Compiled class files
+out/
+build/
+dist/
+*.class
+
+# NetBeans project files
+nbproject/private/
+nbbuild/
+nbdist/
+nb-configuration.xml
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JAR files in lib are intentionally tracked for easy setup
